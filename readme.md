@@ -32,8 +32,11 @@ determinant;
 (Assume that lines are  one determinant line on each side both left and right.)
 
 D = | 2 1 1 |
+
     | 1–1–1 |
+    
     | 1 2 1 |
+    
  
 answer
 column;
@@ -48,15 +51,26 @@ values in x-column ;
 
 (Assume that lines are  one determinant line on each side both left and right.)
 D_x = | 3 1 1 |
+
       | 0–1–1 |
+      
       | 0 2 1 |
+      
 
 
 
-Similarly, Dy and Dz would then be:   Copyright © Elizabeth Stapel 2004-2011 All Rights Reserved
-D_y = || 2 3 1 || 1 0 -1 || 1 0 1 ||
+Similarly, Dy and Dz would then be:   
 
-D_z = || 2 1 3 || 1 -1 0 || 1 2 0 ||
+D_y = 
+    | 2 3 1 |
+    | 1 0 -1 |
+    | 1 0 1 |
+
+D_z = 
+    | 2 1 3 |
+    | 1 -1 0 |
+    | 1 2 0 |
+
 
 Evaluating each determinant, we get:
 
@@ -101,4 +115,5 @@ Almost.
 
 What if the coefficient determinant is zero? You can't divide by zero, so what does this mean? I can't go into the technicalities here, but "D = 0" means that the system of equations has no unique solution. The system may be inconsistent (no solution at all) or dependent (an infinite solution, which may be expressed as a parametric solution such as "(a, a + 3, a – 4)"). In terms of Cramer's Rule, "D = 0" means that you'll have to use some other method (such as matrix row operations) to solve the system. If D = 0, you can't use Cramer's Rule.
  
- 
+Copyright © Elizabeth Stapel 2004-2011 All Rights Reserved
+http://www.purplemath.com/modules/cramers.htm
