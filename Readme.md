@@ -50,6 +50,7 @@ with answer-column
 values in x-column ;
 
 (Assume that lines are  one determinant line on each side both left and right.)
+
 D_x = | 3 1 1 |
 
       | 0–1–1 |
@@ -89,6 +90,7 @@ x = 3/3 = 1,  y = –6/3 = –2,  and  z = 9/3 = 3
 That's all there is to Cramer's Rule. To find whichever variable you want (call it "ß" or "beta"), just evaluate the determinant quotient Dß ÷ D. (Please don't ask me to explain why this works. Just trust me that determinants can work many kinds of magic.)
 
 Given the following system of equations, find the value of z.
+
 2x +   y +   z = 1 
   x –   y + 4z = 0 
   x + 2y – 2z = 3
