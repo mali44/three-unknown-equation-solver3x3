@@ -32,6 +32,7 @@ determinant;
 (Assume that lines are  one determinant line on each side both left and right.)
 
 D = 
+
    | 2 1 1 |
 
    | 1–1–1 |  
@@ -53,6 +54,7 @@ values in x-column ;
 (Assume that lines are  one determinant line on each side both left and right.)
 
 D_x =
+
    | 3 1 1 |
 
    | 0–1–1 | 
