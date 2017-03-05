@@ -34,7 +34,7 @@ determinant;
 D = | 2 1 1 |
     | 1–1–1 |
     | 1 2 1 |
-
+ 
 answer
 column;
 
