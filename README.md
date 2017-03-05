@@ -42,7 +42,7 @@ column;
  [ 0 ]
  [ 0 ]
 
-Dx: coefficient determinant
+Dx: coefficient determinant 
 with answer-column
 values in x-column ;
 
