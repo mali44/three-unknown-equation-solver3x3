@@ -1,7 +1,10 @@
 # three-unknown-equation-solver3x3
 3x3 equation solver by using cremer method in java
 
- 
+In my code the result and matrises are generated randomly. It won't take any input from you. 
+
+Now below you can simply understand how it works according to Cremer's rule.
+
 Cramer's Rule
  
 Given a system of linear equations, Cramer's Rule is a handy way to solve for just one of the variables without having to solve the whole system of equations. They don't usually teach Cramer's Rule this way, but this is supposed to be the point of the Rule: instead of solving the entire system of equations, you can use Cramer's to solve for just one single variable.
