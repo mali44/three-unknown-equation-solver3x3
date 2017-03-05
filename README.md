@@ -1,18 +1,9 @@
 # three-unknown-equation-solver3x3
 3x3 equation solver by using cremer method in java
 
-
-
-
  
-
-Return to the Lessons Index  | Do the Lessons in Order  |  Get "Purplemath on CD" for offline use  |  Print-friendly page
-
 Cramer's Rule
-
-
-
-
+ 
 Given a system of linear equations, Cramer's Rule is a handy way to solve for just one of the variables without having to solve the whole system of equations. They don't usually teach Cramer's Rule this way, but this is supposed to be the point of the Rule: instead of solving the entire system of equations, you can use Cramer's to solve for just one single variable.
 
 Let's use the following system of equations:
@@ -23,29 +14,41 @@ Let's use the following system of equations:
 
 We have the left-hand side of the system with the variables (the "coefficient matrix") and the right-hand side with the answer values. Let D be the determinant of the coefficient matrix of the above system, and let Dx be the determinant formed by replacing the x-column values with the answer-column values:
 
+
+
 system of
-equations
-
-coefficient
-matrix's
-determinant
-
-answer
-column
-
-Dx: coefficient determinant
-with answer-column
-values in x-column
+equations 
 
 2x + 1y + 1z = 3 
  1x – 1y – 1z = 0 
 1x + 2y + 1z = 0
 
-D = || 2 1 1 || 1 –1 –1 || 1 2 1 ||
+coefficient
+matrix's
+determinant;
+(Assume that lines are  one determinant line on each side both left and right.)
 
-[[ 3 ][ 0 ][ 0 ]]
+D = | 2 1 1 |
+    | 1–1–1 |
+    | 1 2 1 |
 
-D_x = || 3 1 1 || 0 –1 –1 || 0 2 1 ||
+answer
+column;
+
+ [ 3 ]
+ [ 0 ]
+ [ 0 ]
+
+Dx: coefficient determinant
+with answer-column
+values in x-column ;
+
+(Assume that lines are  one determinant line on each side both left and right.)
+D_x = | 3 1 1 |
+      | 0–1–1 |
+      | 0 2 1 |
+
+
 
 Similarly, Dy and Dz would then be:   Copyright © Elizabeth Stapel 2004-2011 All Rights Reserved
 D_y = || 2 3 1 || 1 0 -1 || 1 0 1 ||
@@ -94,3 +97,4 @@ The point of Cramer's Rule is that you don't have to solve the whole system to g
 Almost.
 
 What if the coefficient determinant is zero? You can't divide by zero, so what does this mean? I can't go into the technicalities here, but "D = 0" means that the system of equations has no unique solution. The system may be inconsistent (no solution at all) or dependent (an infinite solution, which may be expressed as a parametric solution such as "(a, a + 3, a – 4)"). In terms of Cramer's Rule, "D = 0" means that you'll have to use some other method (such as matrix row operations) to solve the system. If D = 0, you can't use Cramer's Rule.
+ 
