@@ -31,10 +31,13 @@ matrix's
 determinant;
 (Assume that lines are  one determinant line on each side both left and right.)
 
-D = | 2 1 1 |
-    | 1–1–1 |    
-    | 1 2 1 |
-    
+D = 
+   | 2 1 1 |
+
+   | 1–1–1 |  
+
+   | 1 2 1 |
+
  
 answer
 column;
@@ -49,9 +52,13 @@ values in x-column ;
 
 (Assume that lines are  one determinant line on each side both left and right.)
 
-D_x = | 3 1 1 |
-      | 0–1–1 |      
-      | 0 2 1 |
+D_x =
+   | 3 1 1 |
+
+   | 0–1–1 | 
+
+   | 0 2 1 |
+
       
 
 
@@ -59,14 +66,20 @@ D_x = | 3 1 1 |
 Similarly, Dy and Dz would then be:   
 
 D_y = 
+    
     | 2 3 1 |
+    
     | 1 0 -1 |
+   
     | 1 0 1 |
 
 D_z = 
-    | 2 1 3 |
-    | 1 -1 0 |
-    | 1 2 0 |
+   
+   | 2 1 3 |
+   
+   | 1 -1 0 |
+   
+   | 1 2 0 |
 
 
 Evaluating each determinant, we get:
